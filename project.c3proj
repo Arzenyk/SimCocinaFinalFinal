@@ -5,10 +5,40 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
 	"uniqueId": "mu51qnooh4f",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"spr_jugador",
+			"spr_fondo",
+			"spr_colisiones",
+			"spr_cajon_tomates",
+			"spr_cajon_lechuga",
+			"spr_cajon_cebolla",
+			"spr_estante_pan"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -149,9 +179,9 @@
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
-			0,
-			0,
-			0,
+			0.0196078431372549,
+			0.0196078431372549,
+			0.0196078431372549,
 			0
 		],
 		"splashColor": [
